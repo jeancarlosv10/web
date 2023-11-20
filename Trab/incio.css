@@ -1,0 +1,222 @@
+.relatorio {
+  position: absolute;
+  top: 16rem;
+  left: 0.25rem;
+  background-color: var(--color-lightslategray);
+  width: 107.44rem;
+  height: 7.25rem;
+}
+.relatrio-do-dia {
+  position: absolute;
+  top: 15.5rem;
+  left: -4.12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28rem;
+  height: 8.56rem;
+}
+.pedidos,
+.pendentes {
+  position: absolute;
+  left: 1.57rem;
+  width: 109.04rem;
+}
+.pendentes {
+  top: 0;
+  background-color: var(--color-lightslategray);
+  height: 21.13rem;
+}
+.pedidos {
+  top: 8.74rem;
+  background-color: var(--color-lightsteelblue);
+  height: 12.38rem;
+}
+.pedidos-esperando-aprovao,
+.pedidos-pendentes {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pedidos-pendentes {
+  top: 1.89rem;
+  left: 0;
+  text-decoration: underline;
+  width: 28.79rem;
+  height: 5.18rem;
+  cursor: pointer;
+}
+.pedidos-esperando-aprovao {
+  top: 8.81rem;
+  left: 9.28rem;
+  font-size: var(--font-size-29xl);
+  color: var(--color-tomato);
+  width: 92.46rem;
+  height: 9.03rem;
+}
+.pendentes-parent {
+  position: absolute;
+  top: 48.69rem;
+  left: -2.97rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 110.61rem;
+  height: 21.13rem;
+  font-size: var(--font-size-21xl);
+}
+.segunda-feira {
+  position: absolute;
+  top: 17.63rem;
+  left: 36.31rem;
+  font-size: var(--font-size-29xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34.25rem;
+  height: 3.81rem;
+}
+.incio-child {
+  position: absolute;
+  top: 26.12rem;
+  left: 0.21rem;
+  width: 107.44rem;
+  height: 16.81rem;
+}
+.menu {
+  position: absolute;
+  height: 99.43%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.57%;
+  left: 0;
+  background-color: var(--color-steelblue);
+  border: 5px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+}
+.fort-icon,
+.fortes {
+  position: absolute;
+  bottom: 0;
+}
+.fortes {
+  height: 100%;
+  width: 97.26%;
+  top: 0;
+  right: 1.72%;
+  left: 1.02%;
+  background-color: var(--color-steelblue);
+}
+.fort-icon {
+  height: 99.51%;
+  width: 100%;
+  top: 0.49%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fortes-logo {
+  position: absolute;
+  height: 84.79%;
+  width: 23.9%;
+  top: 7.58%;
+  right: 75.58%;
+  bottom: 7.63%;
+  left: 0.52%;
+}
+.inicio {
+  height: 99.43%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.57%;
+  left: 0;
+  border: 5px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+}
+.incio1,
+.incio2,
+.inicio {
+  position: absolute;
+}
+.incio2 {
+  height: 99.43%;
+  width: 100%;
+  top: 0.57%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.incio1 {
+  height: 100%;
+  width: 13.48%;
+  top: 0;
+  right: 40.45%;
+  bottom: 0;
+  left: 46.06%;
+}
+.relatrio {
+  right: 26.97%;
+  left: 59.55%;
+  cursor: pointer;
+}
+.pedido,
+.perfil,
+.relatrio {
+  position: absolute;
+  height: 100%;
+  width: 13.48%;
+  top: 0;
+  bottom: 0;
+}
+.pedido {
+  right: 13.48%;
+  left: 73.03%;
+  cursor: pointer;
+}
+.perfil {
+  right: 0;
+  left: 86.52%;
+}
+.refeio-saudvel {
+  position: absolute;
+  height: 98.25%;
+  width: 23.09%;
+  top: 1.19%;
+  left: 24.02%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.barra {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 108rem;
+  height: 12.13rem;
+}
+.canteiro-de-obras {
+  position: absolute;
+  top: 18.31rem;
+  left: 68.69rem;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 43.56rem;
+  height: 2.94rem;
+}
+.incio {
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 69.81rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-19xl);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}

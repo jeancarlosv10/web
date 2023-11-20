@@ -1,0 +1,320 @@
+.menu3 {
+  position: absolute;
+  height: 99.42%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.58%;
+  left: 0;
+  background-color: var(--color-steelblue);
+  border: 5px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+}
+.fort-icon3,
+.fortes3 {
+  position: absolute;
+  bottom: 0;
+}
+.fortes3 {
+  height: 100%;
+  width: 97.26%;
+  top: 0;
+  right: 1.72%;
+  left: 1.02%;
+  background-color: var(--color-steelblue);
+}
+.fort-icon3 {
+  height: 99.52%;
+  width: 100%;
+  top: 0.48%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fortes-logo3 {
+  position: absolute;
+  height: 84.8%;
+  width: 23.9%;
+  top: 7.6%;
+  right: 75.58%;
+  bottom: 7.6%;
+  left: 0.52%;
+}
+.inicio3 {
+  height: 99.42%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.58%;
+  left: 0;
+  border: 5px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+}
+.incio7,
+.incio8,
+.inicio3 {
+  position: absolute;
+}
+.incio8 {
+  height: 99.42%;
+  width: 100%;
+  top: 0.58%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.incio7 {
+  height: 100%;
+  width: 13.48%;
+  top: 0;
+  right: 40.45%;
+  bottom: 0;
+  left: 46.06%;
+  cursor: pointer;
+}
+.relatrio7 {
+  right: 26.97%;
+  left: 59.55%;
+  cursor: pointer;
+}
+.pedido9,
+.perfil3,
+.relatrio7 {
+  position: absolute;
+  height: 100%;
+  width: 13.48%;
+  top: 0;
+  bottom: 0;
+}
+.pedido9 {
+  right: 13.48%;
+  left: 73.03%;
+  cursor: pointer;
+}
+.perfil3 {
+  right: 0;
+  left: 86.52%;
+}
+.refeio-saudvel3 {
+  position: absolute;
+  height: 98.25%;
+  width: 23.09%;
+  top: 1.17%;
+  left: 24.02%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.barra3,
+.canteiro,
+.semana1 {
+  position: absolute;
+  width: 108rem;
+}
+.barra3 {
+  top: 0;
+  left: 0.81rem;
+  height: 10.69rem;
+  text-align: center;
+  font-size: var(--font-size-19xl);
+  font-family: var(--font-archivo);
+}
+.canteiro,
+.semana1 {
+  top: 16.63rem;
+  left: 0;
+  background-color: var(--color-lightslategray);
+  height: 7rem;
+}
+.semana1 {
+  top: 23.63rem;
+  background-color: var(--color-lightsteelblue);
+  height: 46.19rem;
+}
+.domingo1,
+.quarta,
+.quinta,
+.sabado,
+.segunda,
+.sexta,
+.terca {
+  position: absolute;
+  top: 28.44rem;
+  background-color: var(--color-lightslategray);
+  width: 35.06rem;
+  height: 12.94rem;
+}
+.segunda {
+  left: 0;
+}
+.domingo1,
+.quarta,
+.quinta,
+.sabado,
+.sexta,
+.terca {
+  left: 36.5rem;
+}
+.domingo1,
+.quarta,
+.quinta,
+.sabado,
+.sexta {
+  left: 72.81rem;
+}
+.domingo1,
+.quinta,
+.sabado,
+.sexta {
+  top: 42.63rem;
+  left: 72.94rem;
+}
+.domingo1,
+.quinta,
+.sexta {
+  left: 36.44rem;
+}
+.domingo1,
+.quinta {
+  left: -0.06rem;
+}
+.domingo1 {
+  top: 56.88rem;
+  left: 0.19rem;
+  width: 35rem;
+}
+.canteiro-de-obras5,
+.cardpio-para-a {
+  position: absolute;
+  top: 18.75rem;
+  left: 2.06rem;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-archivo);
+  display: inline-block;
+  width: 38.06rem;
+  height: 4.88rem;
+}
+.cardpio-para-a {
+  left: 39.38rem;
+  width: 35.31rem;
+  height: 3.63rem;
+}
+.almoo-feijoada-com {
+  margin-bottom: false;
+}
+.caf-da-manh-tapioca-rechead {
+  margin: 0;
+  padding-left: var(--padding-13xl);
+}
+.segunda-feira-caf-da-container {
+  position: absolute;
+  top: 29rem;
+  left: 1.19rem;
+  display: inline-block;
+  width: 33.88rem;
+  height: 9.69rem;
+}
+.quarta-feira-caf-da-container,
+.quinta-feira-caf-da-container,
+.tera-feira-caf-da-container {
+  position: absolute;
+  top: 43.75rem;
+  left: 0.81rem;
+  display: inline-block;
+  width: 33.88rem;
+  height: 9.69rem;
+}
+.quarta-feira-caf-da-container,
+.tera-feira-caf-da-container {
+  top: 29rem;
+  left: 37.06rem;
+}
+.quarta-feira-caf-da-container {
+  left: 73.44rem;
+  width: 34rem;
+  height: 11.75rem;
+}
+.sexta-feira-caf-da-container {
+  position: absolute;
+  top: 43.75rem;
+  left: 37.06rem;
+  display: inline-block;
+  width: 33.88rem;
+}
+.sbado-caf-da-container {
+  position: absolute;
+  top: 43.44rem;
+  left: 73.94rem;
+}
+.domingo-caf-da-container {
+  position: absolute;
+  top: 57.94rem;
+  left: 0.56rem;
+  display: inline-block;
+  width: 34.13rem;
+  height: 10.88rem;
+}
+.aprovar,
+.revisao {
+  position: absolute;
+  top: 61.63rem;
+  border-radius: var(--br-26xl);
+  height: 4.38rem;
+}
+.revisao {
+  left: 47.25rem;
+  background-color: var(--color-tomato);
+  width: 22.44rem;
+}
+.aprovar {
+  left: 73.94rem;
+  background-color: #3c9065;
+  width: 23.31rem;
+}
+.aprovar1,
+.reviso {
+  position: absolute;
+  top: 62.75rem;
+  left: 48.25rem;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-archivo);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 20.25rem;
+  height: 2.25rem;
+}
+.aprovar1 {
+  top: 62.56rem;
+  left: 74.56rem;
+  width: 21.5rem;
+  height: 2.44rem;
+}
+.sabores-do-brasil {
+  margin: 0;
+}
+.fornecedor-sabores-do-container {
+  position: absolute;
+  top: 17.81rem;
+  left: 73.44rem;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-archivo);
+  display: inline-block;
+  width: 32.56rem;
+  height: 7.5rem;
+}
+.pedido-exemplo {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 69.81rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-inherit);
+  color: var(--color-black);
+  font-family: var(--font-inherit);
+}

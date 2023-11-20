@@ -1,0 +1,182 @@
+.menu1 {
+  position: absolute;
+  height: 99.42%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.58%;
+  left: 0;
+  background-color: var(--color-steelblue);
+  border: 5px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+}
+.fort-icon1,
+.fortes1 {
+  position: absolute;
+  bottom: 0;
+}
+.fortes1 {
+  height: 100%;
+  width: 97.26%;
+  top: 0;
+  right: 1.72%;
+  left: 1.02%;
+  background-color: var(--color-steelblue);
+}
+.fort-icon1 {
+  height: 99.52%;
+  width: 100%;
+  top: 0.48%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fortes-logo1 {
+  position: absolute;
+  height: 84.8%;
+  width: 23.9%;
+  top: 7.6%;
+  right: 75.58%;
+  bottom: 7.6%;
+  left: 0.52%;
+}
+.inicio1 {
+  height: 99.42%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.58%;
+  left: 0;
+  border: 5px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+}
+.incio3,
+.incio4,
+.inicio1 {
+  position: absolute;
+}
+.incio4 {
+  height: 99.42%;
+  width: 100%;
+  top: 0.58%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.incio3 {
+  height: 100%;
+  width: 13.48%;
+  top: 0;
+  right: 40.45%;
+  bottom: 0;
+  left: 46.06%;
+  cursor: pointer;
+}
+.relatrio3 {
+  right: 26.97%;
+  left: 59.55%;
+  cursor: pointer;
+}
+.pedido3,
+.perfil1,
+.relatrio3 {
+  position: absolute;
+  height: 100%;
+  width: 13.48%;
+  top: 0;
+  bottom: 0;
+}
+.pedido3 {
+  right: 13.48%;
+  left: 73.03%;
+  cursor: pointer;
+}
+.perfil1 {
+  right: 0;
+  left: 86.52%;
+}
+.refeio-saudvel1 {
+  position: absolute;
+  height: 98.25%;
+  width: 23.09%;
+  top: 1.17%;
+  left: 24.02%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.barra1,
+.obras,
+.select {
+  position: absolute;
+  left: 0;
+  width: 108rem;
+}
+.barra1 {
+  top: 0.5rem;
+  height: 10.69rem;
+  text-align: center;
+  font-size: var(--font-size-19xl);
+  font-family: var(--font-archivo);
+}
+.obras,
+.select {
+  top: 18.13rem;
+  background-color: var(--color-lightslategray);
+  height: 18.5rem;
+}
+.obras {
+  top: 25.75rem;
+  background-color: var(--color-lightsteelblue);
+  height: 25.56rem;
+}
+.selecione-um-canteiro {
+  position: absolute;
+  top: 20.81rem;
+  left: 2.81rem;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-archivo);
+  display: inline-block;
+  width: 37.5rem;
+  height: 2.75rem;
+}
+.canteiro-de-obras1 {
+  margin: 0;
+  padding-left: var(--padding-29xl);
+}
+.canteiro-de-obras-container {
+  position: absolute;
+  top: 30.5rem;
+  left: 2.81rem;
+  display: inline-block;
+  width: 33.19rem;
+  height: 2.81rem;
+  cursor: pointer;
+}
+.canteiro-de-obras-container1,
+.canteiro-de-obras-container2 {
+  position: absolute;
+  top: 38.19rem;
+  left: 2.81rem;
+  display: inline-block;
+  width: 33.19rem;
+  height: 2.81rem;
+}
+.canteiro-de-obras-container2 {
+  top: 45.88rem;
+}
+.relatrio2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 69.81rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-inherit);
+  color: var(--color-black);
+  font-family: var(--font-inherit);
+}

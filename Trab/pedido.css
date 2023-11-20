@@ -1,0 +1,168 @@
+.menu4 {
+  position: absolute;
+  height: 99.42%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.58%;
+  left: 0;
+  background-color: var(--color-steelblue);
+  border: 5px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+}
+.fort-icon4,
+.fortes4 {
+  position: absolute;
+  bottom: 0;
+}
+.fortes4 {
+  height: 100%;
+  width: 97.26%;
+  top: 0;
+  right: 1.72%;
+  left: 1.02%;
+  background-color: var(--color-steelblue);
+}
+.fort-icon4 {
+  height: 99.52%;
+  width: 100%;
+  top: 0.48%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fortes-logo4 {
+  position: absolute;
+  height: 84.8%;
+  width: 23.9%;
+  top: 7.6%;
+  right: 75.58%;
+  bottom: 7.6%;
+  left: 0.52%;
+}
+.incio10,
+.inicio4 {
+  position: absolute;
+  height: 99.42%;
+  width: 100%;
+  left: 0;
+}
+.inicio4 {
+  top: 0;
+  right: 0;
+  bottom: 0.58%;
+  border: 5px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+}
+.incio10 {
+  top: 0.58%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.incio9 {
+  position: absolute;
+  height: 100%;
+  width: 13.48%;
+  top: 0;
+  right: 40.45%;
+  bottom: 0;
+  left: 46.06%;
+  cursor: pointer;
+}
+.relatrio9 {
+  right: 26.97%;
+  left: 59.55%;
+  cursor: pointer;
+}
+.pedido13,
+.perfil4,
+.relatrio9 {
+  position: absolute;
+  height: 100%;
+  width: 13.48%;
+  top: 0;
+  bottom: 0;
+}
+.pedido13 {
+  right: 13.48%;
+  left: 73.03%;
+  cursor: pointer;
+}
+.perfil4 {
+  right: 0;
+  left: 86.52%;
+}
+.refeio-saudvel4 {
+  position: absolute;
+  height: 98.25%;
+  width: 23.09%;
+  top: 1.17%;
+  left: 24.02%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.barra4,
+.pedidos1,
+.pedidos2 {
+  position: absolute;
+  left: 0;
+  width: 108rem;
+}
+.barra4 {
+  top: 0;
+  height: 10.69rem;
+  text-align: center;
+  font-size: var(--font-size-19xl);
+}
+.pedidos1,
+.pedidos2 {
+  top: 17.56rem;
+  background-color: var(--color-lightslategray);
+  height: 6.13rem;
+}
+.pedidos2 {
+  top: 23.69rem;
+  background-color: var(--color-lightsteelblue);
+  height: 12rem;
+}
+.pedidos-pendentes1 {
+  position: absolute;
+  top: 19.38rem;
+  left: 2.81rem;
+  display: inline-block;
+  width: 37.5rem;
+  height: 4.31rem;
+}
+.pedido-a-ser,
+.pedido-a-ser1 {
+  position: absolute;
+  top: 26.25rem;
+  color: var(--color-tomato);
+  display: inline-block;
+  height: 6.25rem;
+}
+.pedido-a-ser {
+  left: 2.63rem;
+  width: 47.44rem;
+  cursor: pointer;
+}
+.pedido-a-ser1 {
+  left: 54.94rem;
+  width: 51.56rem;
+}
+.pedido12 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 69.81rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}

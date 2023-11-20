@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./incio.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="incio">
+      <div class="relatorio"></div>
+      <div class="relatrio-do-dia">Relatório do dia</div>
+      <div class="pendentes-parent">
+        <div class="pendentes"></div>
+        <div class="pedidos"></div>
+        <div class="pedidos-pendentes" id="pedidosPendentesText">
+          Pedidos Pendentes
+        </div>
+        <div class="pedidos-esperando-aprovao">
+          2 Pedidos Esperando Aprovação
+        </div>
+      </div>
+      <div class="segunda-feira">Segunda-feira</div>
+      <img class="incio-child" alt="" src="./public/group-6.svg" />
+
+      <div class="barra">
+        <div class="menu"></div>
+        <div class="fortes-logo">
+          <div class="fortes"></div>
+          <img class="fort-icon" alt="" src="./public/fort@2x.png" />
+        </div>
+        <div class="incio1">
+          <div class="inicio"></div>
+          <div class="incio2">Início</div>
+        </div>
+        <div class="relatrio" id="relatrioContainer">
+          <div class="inicio"></div>
+          <div class="incio2">Relatório</div>
+        </div>
+        <div class="pedido" id="pedidoContainer">
+          <div class="inicio"></div>
+          <div class="incio2">Pedido</div>
+        </div>
+        <div class="perfil">
+          <div class="inicio"></div>
+          <div class="incio2">Fornecedor</div>
+        </div>
+        <div class="refeio-saudvel">Refeição Saudável</div>
+      </div>
+      <div class="canteiro-de-obras">Canteiro de Obras 1</div>
+    </div>
+
+    <script>
+      var pedidosPendentesText = document.getElementById("pedidosPendentesText");
+      if (pedidosPendentesText) {
+        pedidosPendentesText.addEventListener("click", function (e) {
+          window.location.href = "./pedido.html";
+        });
+      }
+      
+      var relatrioContainer = document.getElementById("relatrioContainer");
+      if (relatrioContainer) {
+        relatrioContainer.addEventListener("click", function (e) {
+          window.location.href = "./relatrio.html";
+        });
+      }
+      
+      var pedidoContainer = document.getElementById("pedidoContainer");
+      if (pedidoContainer) {
+        pedidoContainer.addEventListener("click", function (e) {
+          window.location.href = "./pedido.html";
+        });
+      }
+      </script>
+  </body>
+</html>

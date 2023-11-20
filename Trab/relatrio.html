@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./relatrio.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="relatrio2">
+      <div class="barra1">
+        <div class="menu1"></div>
+        <div class="fortes-logo1">
+          <div class="fortes1"></div>
+          <img class="fort-icon1" alt="" src="./public/fort1@2x.png" />
+        </div>
+        <div class="incio3" id="incioContainer">
+          <div class="inicio1"></div>
+          <div class="incio4">Início</div>
+        </div>
+        <div class="relatrio3" id="relatrioContainer">
+          <div class="inicio1"></div>
+          <div class="incio4">Relatório</div>
+        </div>
+        <div class="pedido3" id="pedidoContainer">
+          <div class="inicio1"></div>
+          <div class="incio4">Pedido</div>
+        </div>
+        <div class="perfil1">
+          <div class="inicio1"></div>
+          <div class="incio4">Fornecedor</div>
+        </div>
+        <div class="refeio-saudvel1">Refeição Saudável</div>
+      </div>
+      <div class="select"></div>
+      <div class="obras"></div>
+      <div class="selecione-um-canteiro">Selecione um canteiro</div>
+      <div class="canteiro-de-obras-container" id="canteiroDeObras">
+        <ul class="canteiro-de-obras1">
+          Canteiro de Obras 1
+        </ul>
+      </div>
+      <div class="canteiro-de-obras-container1">
+        <ul class="canteiro-de-obras1">
+          Canteiro de Obras 2
+        </ul>
+      </div>
+      <div class="canteiro-de-obras-container2">
+        <ul class="canteiro-de-obras1">
+          Canteiro de Obras 3
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      var incioContainer = document.getElementById("incioContainer");
+      if (incioContainer) {
+        incioContainer.addEventListener("click", function (e) {
+          window.location.href = "./incio.html";
+        });
+      }
+      
+      var relatrioContainer = document.getElementById("relatrioContainer");
+      if (relatrioContainer) {
+        relatrioContainer.addEventListener("click", function (e) {
+          window.location.href = "./relatrio.html";
+        });
+      }
+      
+      var pedidoContainer = document.getElementById("pedidoContainer");
+      if (pedidoContainer) {
+        pedidoContainer.addEventListener("click", function (e) {
+          window.location.href = "./pedido.html";
+        });
+      }
+      
+      var canteiroDeObras = document.getElementById("canteiroDeObras");
+      if (canteiroDeObras) {
+        canteiroDeObras.addEventListener("click", function (e) {
+          window.location.href = "./relatrio-exemplo.html";
+        });
+      }
+      </script>
+  </body>
+</html>
